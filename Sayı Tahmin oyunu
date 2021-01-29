@@ -1,0 +1,9 @@
+# Learning-Python 
+#Sayı Tahmin oyunu
+import random
+liste = list(range (20))
+random.choice(liste)
+if input ("Tahmininizi girin") == random.choice(liste):
+    print ("Bildiniz")
+else:
+    print ("Bilemediniz")
